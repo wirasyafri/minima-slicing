@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Quicksand";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+
+.nav-home{
+    width: 200px;
+    margin-right: 60px;
+}
+
+.nav img{
+    width: 150px;
+}
+
+.nav-bar{
+    margin-right: 30px;
+}
+
+.nav-bar a{
+    font-size: 16px;
+    color: #121212;
+    margin-right: 44px;
+    text-decoration: none;
+}
+
+button.btn-contact{
+    background-color: #121212;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+section.hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 120vh;
+    background-color: #121212;
+    color: #fafafa;
+    padding-left: 165px;
+}
+
+.column-text-heading{
+    padding-top: 135px;
+    width: 50%;
+    font-size: 35px;
+}
+
+p.text-p{
+    margin-top: 24px;
+    margin-bottom: 47px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+}
+
+button.btn-started{
+    background-color: #FAFAFA;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 10px;
+    color: #0B0A0A;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.partner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 10%;
+    column-gap: 14px;
+}
+
+.partner-card{
+    background-color: #FFFFFF;
+    border: 3px solid #2E2E2E;
+    border-radius: 16px;
+    padding: 23px 25px;
+    display: flex;
+    align-items: center;
+}
