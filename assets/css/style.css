@@ -62,7 +62,7 @@ section.hero{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    height: 120vh;
+    height: 55vh;
     background-color: #121212;
     color: #fafafa;
     padding-left: 165px;
@@ -106,4 +106,55 @@ button.btn-started{
     padding: 23px 25px;
     display: flex;
     align-items: center;
+}
+
+.typography{
+    display: flex;
+    align-items: center;
+    /* height: 92vh; */
+}
+.img-typography img{
+    padding-top: 71px;
+}
+
+.text-typography{
+    margin-left: 114px;
+    width: 50%;
+}
+
+.text-typography h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #2E2E2E;
+    text-transform: capitalize;
+}
+
+.text-typography p{
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #717F91;
+    width: 100%;
+    line-height: 32px;
+}
+
+.service{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.service img{
+    padding: 0px 0px;
+    margin-right: 20px;
+}
+
+.service-description h1{
+    font-size: 24px;
+}
+
+.service-description p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 0px;
 }
